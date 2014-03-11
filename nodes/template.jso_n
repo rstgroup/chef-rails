@@ -1,0 +1,21 @@
+{
+  "postgresql": {
+    "password": {
+      "postgres": "$1$6286nDOS$Ms6Qq1b/XyM7kBF7O/ped1"
+    },
+    "config": {
+      "listen_addresses": "localhost"
+    }
+  },
+  "rvm": {
+    "default_ruby": "ruby-2.0.0-p247@project-name",
+    "global_gems": [
+      {"name": "bundler"},
+      {"name": "rails"},
+      {"name": "pg"},
+      {"name": "redis"},
+      {"name": "redis_object"}
+    ]
+  },
+  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]"]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "database",
+  "description": "node installation",
+  "json_class": "Chef::Role",
+  "run_list": ["recipe[postgresql::server]", "recipe[postgresql::client]", "recipe[redisio::install]", "recipe[redisio::enable]"],
+  "chef_type": "role"
+}

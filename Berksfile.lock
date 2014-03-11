@@ -1,0 +1,57 @@
+{
+  "sources": {
+    "rvm": {
+      "locked_version": "0.9.1",
+      "git": "https://github.com/fnichol/chef-rvm.git",
+      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
+    },
+    "nodejs": {
+      "locked_version": "1.3.0",
+      "git": "https://github.com/mdxp/nodejs-cookbook.git",
+      "ref": "e2415cd8c4e03dccf21d7ef6ca31e1c5c81467ca"
+    },
+    "postgresql": {
+      "locked_version": "3.3.4",
+      "git": "https://github.com/hw-cookbooks/postgresql.git",
+      "ref": "5800238828b443725442fe510ec4f5308ed9ce8b"
+    },
+    "redisio": {
+      "locked_version": "1.7.1",
+      "git": "https://github.com/brianbianco/redisio.git",
+      "ref": "2b7fc068417fb95758b07bc4f6e3c4a450419812"
+    },
+    "java": {
+      "locked_version": "1.15.4"
+    },
+    "windows": {
+      "locked_version": "1.11.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "aws": {
+      "locked_version": "1.0.0"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
+    },
+    "apt": {
+      "locked_version": "2.3.0"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.4"
+    },
+    "yum": {
+      "locked_version": "3.1.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.4"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "ulimit": {
+      "locked_version": "0.3.2"
+    }
+  }
+}

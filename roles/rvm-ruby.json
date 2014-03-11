@@ -1,0 +1,7 @@
+{
+  "name": "rvm-ruby",
+  "description": "installation of rvm and ruby",
+  "json_class": "Chef::Role",
+  "run_list": ["rvm::system"],
+  "chef_type": "role"
+}
