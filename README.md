@@ -18,7 +18,7 @@ berks install
 knife solo prepare [user@]host
 ```
 
-Install rvm, nodejs, ruby 2.0, rails, postgres, and redis
+Install rvm, nodejs, ruby 2.0, rails 4, postgres, and redis
 
 1. Copy the content of template.jso_n
 2. Go to chef-rails/nodes/[host].json and paste the content of the template.jso_n file
