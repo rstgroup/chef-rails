@@ -20,6 +20,11 @@
       "git": "https://github.com/brianbianco/redisio.git",
       "ref": "2b7fc068417fb95758b07bc4f6e3c4a450419812"
     },
+    "nginx": {
+      "locked_version": "2.4.5",
+      "git": "https://github.com/opscode-cookbooks/nginx.git",
+      "ref": "b3bc5467da89e264515562a71486b3f560bc96a0"
+    },
     "java": {
       "locked_version": "1.15.4"
     },
@@ -52,6 +57,18 @@
     },
     "ulimit": {
       "locked_version": "0.3.2"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.12.2"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
+    },
+    "runit": {
+      "locked_version": "1.5.10"
     }
   }
 }

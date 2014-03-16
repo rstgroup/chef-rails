@@ -1,3 +1,4 @@
+#ruby=ruby-2.0.0-p247
 #ruby-gemset = chef
 
 source 'https://rubygems.org'
