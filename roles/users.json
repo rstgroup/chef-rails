@@ -17,7 +17,7 @@
         "passwordless": "true"
       }
     },
-    "firewall_allow":[],
+    "firewall_allow":[]
   },
   "json_class": "Chef::Role",
   "run_list": [
