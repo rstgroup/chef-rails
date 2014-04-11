@@ -1,4 +1,9 @@
 {
+  "authorization": {
+      "sudo": {
+        "users": ["deploy"]
+      }
+    },
   "postgresql": {
     "password": {
       "postgres": "$1$6286nDOS$Ms6Qq1b/XyM7kBF7O/ped1"
@@ -21,5 +26,5 @@
       "default_root": "~/apps",
       "authorized_ips": ["127.0.0.1:3000"]
     },
-  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]"]
+  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]", "role[users]"]
 }

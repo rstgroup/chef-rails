@@ -1,0 +1,8 @@
+{
+  "id": "deploy",
+  "ssh_keys": [""],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash",
+  "password": "$1$CXTNiUh/$wMMYE.QDYgi3GQIjc1ivV1",
+  "system_user": true
+}
