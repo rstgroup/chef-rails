@@ -1,7 +1,0 @@
-{
-  "name": "nginx",
-  "description": "nginx installation",
-  "json_class": "Chef::Role",
-  "run_list": ["recipe[nginx]", "recipe[nginx::authorized_ips]"],
-  "chef_type": "role"
-}
