@@ -1,4 +1,9 @@
 {
+  "authorization": {
+      "sudo": {
+        "users": ["deploy"]
+      }
+    },
   "postgresql": {
     "password": {
       "postgres": "$1$6286nDOS$Ms6Qq1b/XyM7kBF7O/ped1"
@@ -8,7 +13,7 @@
     }
   },
   "rvm": {
-    "default_ruby": "ruby-2.0.0-p353@project-name",
+    "default_ruby": "ruby-2.1.1",
     "global_gems": [
       {"name": "bundler"},
       {"name": "rails"},
@@ -18,8 +23,8 @@
     ]
   },
   "nginx": {
-      "default_root": "/root/www/",
+      "default_root": "~/apps",
       "authorized_ips": ["127.0.0.1:3000"]
     },
-  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]"]
+  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]", "role[users]"]
 }

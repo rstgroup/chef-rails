@@ -1,0 +1,8 @@
+{
+  "id": "deploy",
+  "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvVIxBTTAORO9Ac5ObmYShEQPsaYILJECAPhsiEZrHfKk6TbcNUbq6xzfxpvEWFVxFLf/PSIH3magthfxb7h9SP4JNfQ7m8FbPODNarXr2H4hqVJ+Mz2WFYqTZQCofZEi5Id0MHOxiHOLQSJHy63enVNDWbnesuuZNLFcr9r4SiYI4u/zyXFMYGvr8csjFpWnVe9Ffkmir8BRq1lsCygah+AsaOwi0O/iwELb+eoshRDdHkEbn/iWVLnoofyPNWwfVziZqgIc4lxUNqTB8PUQjDoPt+ODdJmQjZgylIIS3VxWlZoPoTZz8ohdu3EXuL8FjnNzVbcyYCizq05Ki2gpv bartekglowacki@MacBook-Pro-Bartek-2.local"],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash",
+  "password": "$1$CXTNiUh/$wMMYE.QDYgi3GQIjc1ivV1",
+  "system_user": true
+}

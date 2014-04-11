@@ -8,7 +8,7 @@
     }
   },
   "rvm": {
-    "default_ruby": "ruby-2.0.0-p353@project-name",
+    "default_ruby": "ruby-2.1.1",
     "global_gems": [
       {"name": "bundler"},
       {"name": "rails"},
@@ -18,7 +18,7 @@
     ]
   },
   "nginx": {
-      "default_root": "/root/www/",
+      "default_root": "~/apps",
       "authorized_ips": ["127.0.0.1:3000"]
     },
   "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]"]

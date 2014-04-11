@@ -1,8 +1,8 @@
-#ruby=ruby-2.0.0-p247
-#ruby-gemset = chef
+#ruby=ruby-2.1.1
+#ruby-gemset=chef_rails
 
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.1'
 
 gem 'knife-solo', '0.3.0'
 gem "chef", "~> 11.10.0"
