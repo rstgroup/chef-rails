@@ -1,3 +1,6 @@
 /cookbooks/
-/data_bags/users/digital.json
-/nodes/digital.json
+/nodes/*
+/data_bags/**/*
+
+!/nodes/template.json
+!/data_bags/users/template.json.temp
