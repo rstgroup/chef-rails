@@ -26,5 +26,5 @@
       "default_root": "/home/deploy/apps",
       "authorized_ips": ["127.0.0.1:3000"]
     },
-  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]", "role[users]"]
+  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]", "role[users]", "role[imagemagick]"]
 }

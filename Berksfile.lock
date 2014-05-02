@@ -35,6 +35,11 @@
       "git": "https://github.com/opscode-cookbooks/nginx.git",
       "ref": "05b3a613f53a0b05c96f9206c5d67aa420f337fb"
     },
+    "imagemagick": {
+      "locked_version": "0.2.2",
+      "git": "https://github.com/someara/imagemagick.git",
+      "ref": "891a842ad71a8dadc5ec6ed4fa564493e71e2bce"
+    },
     "java": {
       "locked_version": "1.15.4"
     },

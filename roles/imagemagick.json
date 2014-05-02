@@ -1,0 +1,7 @@
+{
+  "name": "imagemagick",
+  "description": "installs imagemagick",
+  "json_class": "Chef::Role",
+  "run_list": ["recipe[imagemagick]"],
+  "chef_type": "role"
+}
