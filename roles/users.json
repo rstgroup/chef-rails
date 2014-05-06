@@ -1,23 +1,14 @@
-// Things we want standard on all server boxes, primarily:
-// - Security
-// - Look and feel
-// - default users, groups etc
 {
   "name": "users",
-  "description": "A server of some kind...",
+  "description": "Setting up users",
   "default_attributes": {
     "authorization": {
       "sudo": {
-        // everyone in the group sysadmin gets sudo rights
         "groups": ["sysadmin"],
-        // the deploy user specifically gets sudo rights
         "users": ["deploy"],
-        // whether a user with sudo rights has to enter their
-        // password when using sudo
         "passwordless": "false"
       }
-    },
-    "firewall_allow":[]
+    }
   },
   "json_class": "Chef::Role",
   "run_list": [

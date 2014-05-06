@@ -3,5 +3,11 @@
   "description": "nginx installation",
   "json_class": "Chef::Role",
   "run_list": ["recipe[nginx]", "recipe[nginx::authorized_ips]"],
-  "chef_type": "role"
+  "chef_type": "role",
+  "default_attributes": {
+    "nginx" :{
+      "default_root": "/home/deploy/apps",
+      "authorized_ips": ["127.0.0.1:3000"]
+    }
+  }
 }

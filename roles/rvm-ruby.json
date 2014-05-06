@@ -3,5 +3,18 @@
   "description": "installation of rvm and ruby",
   "json_class": "Chef::Role",
   "run_list": ["rvm::system"],
-  "chef_type": "role"
+  "chef_type": "role",
+  "default_attributes": {
+    "rvm": {
+      "default_ruby": "ruby-2.1.1",
+      "global_gems": [
+        {"name": "bundler"},
+        {"name": "rails"},
+        {"name": "pg"},
+        {"name": "redis"},
+        {"name": "redis_object"},
+        {"name": "compass"}
+      ] 
+    }
+  }
 }
