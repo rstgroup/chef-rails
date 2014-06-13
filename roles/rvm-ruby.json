@@ -6,7 +6,7 @@
   "chef_type": "role",
   "default_attributes": {
     "rvm": {
-      "default_ruby": "ruby-2.1.1",
+      "default_ruby": "ruby-2.0.0-p247@ebrank",
       "global_gems": [
         {"name": "bundler"},
         {"name": "rails"},
