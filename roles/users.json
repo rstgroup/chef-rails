@@ -3,7 +3,7 @@
   "description": "Setting up users",
   "default_attributes": {
     "authorization": {
-        "users": ["deploy"],
+        "users": ["deploy"]
     }
   },
   "json_class": "Chef::Role",
