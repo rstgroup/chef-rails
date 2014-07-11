@@ -1,11 +1,11 @@
 {
   "name": "users",
   "description": "Setting up users",
-  "default_attributes": {
-    "authorization": {
-        "users": ["deploy"],
-    }
-  },
+  // "default_attributes": {
+    // "authorization": {
+        // "users": ["deploy"],
+    // }
+  // },
   "json_class": "Chef::Role",
   "run_list": [
     // because secure passwords are nice
