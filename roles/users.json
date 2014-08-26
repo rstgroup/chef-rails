@@ -1,8 +1,8 @@
 {
-  "name": "root",
+  "name": "users",
   "description": "Setting up users",
   "json_class": "Chef::Role",
-  "run_list": [
+   "run_list": [
     // because secure passwords are nice
     "openssl",
     // for building things
@@ -13,7 +13,7 @@
     "users::sysadmins",
     // make sure deploy user has sudo rights
     "sudo"
-  ],
-  "chef_type": "role"
-}
+    ],
+    "chef_type": "role"
+  }
 

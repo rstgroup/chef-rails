@@ -3,11 +3,5 @@
   "description": "database installation",
   "json_class": "Chef::Role",
   "run_list": ["recipe[postgresql::server]", "recipe[postgresql::client]", "recipe[redisio::install]", "recipe[redisio::enable]"],
-  "chef_type": "role",
-  "default_attributes": {
-    "postgresql": {
-      "password": {"postgres": "$1$6286nDOS$Ms6Qq1b/XyM7kBF7O/ped1"},
-      "config": {"listen_addresses": "localhost"}
-    }
-  }
+  "chef_type": "role"
 }
