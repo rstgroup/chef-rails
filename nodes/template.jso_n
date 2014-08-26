@@ -1,3 +1,30 @@
 {
-  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]", "role[users]", "role[imagemagick]"]
+  "authorization": {
+      "sudo": {
+       "groups": ["sysadmin"],
+       "users": ["deploy"],
+       "passwordless": "false"
+     }
+  },
+  "postgresql": {
+      "enable_pgdg_apt": true,
+      // "version": "9.3",
+      "password": {"postgres": "$1$6286nDOS$Ms6Qq1b/XyM7kBF7O/ped1"},
+      "config": {"listen_addresses": "localhost"}
+    },
+  "rvm": {
+    "default_ruby": "ruby-2.0.0-p247@ebrank",
+    "global_gems": [
+      {"name": "bundler"},
+      {"name": "rails"},
+      {"name": "pg"},
+      {"name": "redis"},
+      {"name": "redis_object"}
+    ]
+  },
+  "nginx" :{
+      "default_root": "/home/deploy/app",
+      "authorized_ips": ["127.0.0.1:3000"]
+    },
+  "run_list":["role[database]", "role[rvm-ruby]", "role[nodejs]", "role[nginx]", "role[users]"]
 }
