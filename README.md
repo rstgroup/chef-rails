@@ -1,7 +1,9 @@
 Prepare your Ruby on Rails environment with Chef
 ==========
 
-Chef repo with rvm, ruby, rails, postgres, nodejs, and redis
+Chef provisioning configuration for Ruby on Rails.
+
+This will install postgres, redis, rvm, nodejs, ruby and rails.
 
 # How to use #
 
