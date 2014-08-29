@@ -2,6 +2,7 @@
   "name": "database",
   "description": "database installation",
   "json_class": "Chef::Role",
-  "run_list": ["recipe[postgresql::server]", "recipe[postgresql::client]", "recipe[redisio::install]", "recipe[redisio::enable]"],
+  "run_list": ["recipe[postgresql::server]", "recipe[postgresql::client]", "recipe[redisio::default]" ,"recipe[redisio::install]", "recipe[redisio::enable]"],
+  // "run_list": ["recipe[postgresql::server]", "recipe[postgresql::client]", "recipe[redisio::install]"],
   "chef_type": "role"
 }

@@ -1,10 +1,10 @@
-site :opscode
+source 'https://api.berkshelf.com'
 
-cookbook 'users', git: 'https://github.com/opscode-cookbooks/users.git'
-cookbook 'sudo', git: 'https://github.com/opscode-cookbooks/sudo.git'
-cookbook 'rvm', git: 'https://github.com/fnichol/chef-rvm.git'
-cookbook 'nodejs', git: 'https://github.com/mdxp/nodejs-cookbook.git'
+cookbook 'users'
+cookbook 'sudo'
+cookbook 'rvm'
+cookbook 'nodejs'
 cookbook 'postgresql'
-cookbook 'redisio', git: 'https://github.com/brianbianco/redisio.git'
-cookbook 'nginx', git: 'https://github.com/opscode-cookbooks/nginx.git'
-cookbook 'imagemagick', git: 'https://github.com/someara/imagemagick.git'
+cookbook 'redisio'
+cookbook 'nginx'
+cookbook 'imagemagick'
