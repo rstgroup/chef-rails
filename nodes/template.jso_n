@@ -13,7 +13,7 @@
       "config": {"listen_addresses": "localhost"}
     },
   "rvm": {
-    "default_ruby": "ruby-2.0.0-p247",
+    "default_ruby": "ruby-2.1.2",
     "global_gems": [
       {"name": "bundler"},
       {"name": "rails"},
